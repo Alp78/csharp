@@ -1,0 +1,40 @@
+Unit Testing
+
+Unit Test = function that test a unit of work
+
+several unit testing frameworks available for .NET
+
+- MSTest / Nunit / MbUnit / xUnit.net
+
+--> MSTest integrated with VS
+
+1) Add a Unit Test project to the solution
+2) Decorate the class that contains test methods with TestClass attrtibute
+3) Decorate the Test Method with testMethod attribute
+
+
+AAA pattern:
+
+Arrange: initializes objects and sets the value of the data that is passed to the method being tested
+Act: invokes the method being tested
+Asset: verifies that the method being tested behaves as expected
+
+
+Benefits:
+- find bugs early
+- reduce production bugs
+- make complex code easy to understand
+- provide documentation
+- save development time
+- Easier to change and refactor* code
+- Developers become more confident
+
+*Code refactoring is the process of restructuring existing computer code — changing the factoring — without changing its external behavior. Refactoring improves nonfunctional attributes of the software.
+
+
+Operations in VS:
+
+1) Create a blank Solution
+2) add a new project hosting the Calculator class and Divide method
+3) add a new Test project hosting the AAA pattern
+4) run the test
