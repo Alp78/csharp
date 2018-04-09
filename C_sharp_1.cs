@@ -65,6 +65,14 @@ namespace Arrays
 
         static void Main(string[] args)
         {
+
+            // declare a dynamic type
+            dynamic name = "Vincent";
+            // assign a value of another type
+            name = 10;
+
+            Console.WriteLine(name);
+
             // Read-Write operations with System.IO
             string[] lines = { "This is the first line", "This is the SECOND line", "This is the third line"};
             
