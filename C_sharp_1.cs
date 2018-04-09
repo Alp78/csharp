@@ -65,6 +65,23 @@ namespace Arrays
 
         static void Main(string[] args)
         {
+            // Read-Write operations with System.IO
+            string[] lines = { "This is the first line", "This is the SECOND line", "This is the third line"};
+            
+            //File.WriteAllLines: creates a file if it doesn't exist and write the string array content.
+            // if the file exists, it is overwritten
+            File.WriteAllLines(@"C:\Users\i344559\Desktop\MyTextFile.txt", lines);
+
+            //File.ReadAllLines: retreives all lines from the file and save them in a string array
+            string[] fileContent = File.ReadAllLines(@"C:\Users\i344559\Desktop\MyTextFile.txt");
+
+            foreach (var item in fileContent)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadKey();            
+
             // 'ref' keyword: conversion of value type to reference type
             // use only with a mtehod taking 'ref' type as argument
             // passing a pointer to stack, not the actual value on stack
