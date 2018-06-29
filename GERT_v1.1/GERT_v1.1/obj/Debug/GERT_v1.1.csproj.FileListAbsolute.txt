@@ -1,0 +1,11 @@
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\obj\Debug\GERT_v1.1.csprojAssemblyReference.cache
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\obj\Debug\GERT_v1.1.csproj.CoreCompileInputs.cache
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\bin\Debug\GERT_v1.1.exe.config
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\bin\Debug\GERT_v1.1.exe
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\bin\Debug\GERT_v1.1.pdb
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\bin\Debug\HtmlAgilityPack.dll
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\bin\Debug\HtmlAgilityPack.xml
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\obj\Debug\GERT_v1.1.csproj.CopyComplete
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\obj\Debug\GERT_v1.1.exe
+C:\Users\i344559\source\repos\GERT_v1.1\GERT_v1.1\obj\Debug\GERT_v1.1.pdb
