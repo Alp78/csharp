@@ -13,6 +13,8 @@ namespace Arrays
         Express = 3
     }
 
+    
+
     /* classes are defined at the namespace level */
 
     public class Person
@@ -27,6 +29,9 @@ namespace Arrays
         {
             number += 10;
         }
+
+        // Expression body method "=>": inline and compact method syntax
+        public static double ConvertInputToNumeric(string argTextInput) => double.TryParse(argTextInput, out double convertedNumber) ? convertedNumber : throw new ArgumentException("Parsing failed!");
 
         public static void MakeOld(Person person)
         {
@@ -65,6 +70,14 @@ namespace Arrays
 
         static void Main(string[] args)
         {
+
+            // stores 111 (7 in decimal) as binary with prefix "0b"
+            byte binaryNumber = 0b111;
+            Console.WriteLine(Convert.ToInt16(binaryNumber));
+
+            // digit separators with "long" type (use "_" for better readability --> ignored by the compiler
+            long veryLongNumber = 100_000_000_000;
+            Console.WriteLine(veryLongNumber);
 
             // Jagged Array: all rows can have different number of columns
             int[][] jagged = new int[10][];
