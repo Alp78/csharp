@@ -1,0 +1,7 @@
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\bin\Debug\Sudoku1.exe.config
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\bin\Debug\Sudoku1.exe
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\bin\Debug\Sudoku1.pdb
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\obj\Debug\Sudoku1.csprojAssemblyReference.cache
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\obj\Debug\Sudoku1.csproj.CoreCompileInputs.cache
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\obj\Debug\Sudoku1.exe
+C:\Users\i344559\source\repos\Sudoku1\Sudoku1\obj\Debug\Sudoku1.pdb

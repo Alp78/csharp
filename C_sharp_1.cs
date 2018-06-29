@@ -66,6 +66,14 @@ namespace Arrays
         static void Main(string[] args)
         {
 
+            // Jagged Array: all rows can have different number of columns
+            int[][] jagged = new int[10][];
+            jagged[0] = new int[90];
+            jagged[1] = new int[80];
+
+            // Matrix: all rows have the same number of columns
+            int[,] matrix = new int[10, 10];
+
             // declare a dynamic type
             dynamic name = "Vincent";
             // assign a value of another type
