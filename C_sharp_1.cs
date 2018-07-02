@@ -68,9 +68,17 @@ namespace Arrays
             a = 90;
         }
 
+        private int _score;
+
+        // write properties in body expression syntax
+        public int MyScore 
+        {
+            get => _score;
+            set => _score = value > 0 ? value : throw new Exception("Cannot have a score of 0 or below.");
+        }
+
         static void Main(string[] args)
         {
-
             // stores 111 (7 in decimal) as binary with prefix "0b"
             byte binaryNumber = 0b111;
             Console.WriteLine(Convert.ToInt16(binaryNumber));
