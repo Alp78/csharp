@@ -1,0 +1,19 @@
+﻿Inline or external scripts
+
+JS is a lightweight, cross-platform, object-oriented computer programming language
+- lightweight: simple syntax, doesn't take much resources
+
+node.js -> can use JS on server side as well
+- dynamic effects and interactivity
+
+JS has dynamic typing -> data types are determined at runtime
+
+Primitive data types:
+- number (floating point numbers for both decimals and integers)
+- string
+- boolean
+- undefined (variable without value)
+- null (non-existent)
+
+
+Variable Mutation & Type Coercion
